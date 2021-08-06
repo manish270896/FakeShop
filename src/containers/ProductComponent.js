@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fragment } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from "react-router-dom";
 
@@ -25,7 +26,7 @@ const ProductComponent = () => {
             </div>
         );
     });
-    return <>{remderList}</>;
+    return <Fragment>{remderList}</Fragment>;
 
 };
 
